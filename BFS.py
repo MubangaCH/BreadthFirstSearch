@@ -26,7 +26,7 @@ def Breadth_first_search(adj, start, end):
     
     return -1 #returns -1 for a city that can't be visited from the start
 
-	#allows you to enter your own data as a graph.
+	#allows you to enter your own data as a graph (undirected graph).
 if __name__ == '__main__':
     input = sys.stdin.read()
     data = list(map(int, input.split()))
